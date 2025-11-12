@@ -9,9 +9,9 @@ body {
 /* Header */
 header {
   display: flex;
-  justify-content: space-between; /* Logo à gauche, menu à droite */
+  justify-content: center;
   align-items: center;
-  padding: 15px 50px;
+  padding: auto;
   background: #111;
   color: #fff;
   position: sticky;
@@ -47,9 +47,12 @@ nav a.active {
 
 /* Image section */
 .home-img img {
-  width: 100%;        /* occupe toute la largeur */
-  height: 90vh;       /* prend 90% de la hauteur de l’écran */
-  object-fit: cover;  /* recadre proprement l’image */
+  width: 100%;
+  /* occupe toute la largeur */
+  height: 90vh;
+  /* prend 90% de la hauteur de l’écran */
+  object-fit: cover;
+  /* recadre proprement l’image */
 }
 
 /* Texte principal */
